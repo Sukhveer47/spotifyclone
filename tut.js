@@ -123,8 +123,8 @@ progress();
 seek();
 volumeupdown();
 function fetchData(){
-const clientid='625622c535d74db29cdff3d2c4e2d22a';
-const clientsecret='bedd9bacb80c4934aae5049f7b34b99b';
+const clientid=//your key
+const clientsecret=//your secret;
 const result =fetch('https://accounts.spotify.com/api/token', {
         method: 'POST',
         headers: {
